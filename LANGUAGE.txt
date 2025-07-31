@@ -3,3 +3,10 @@
 TAG_ARMORPLATE = "Composite Armor Plate";
 BLAHBLAH_ARMORPLATE = "Composite Armor Plate.";
 PICKUP_ARMORPLATE = "Picked up an armor plate.";
+
+// Merchant Store Entries
+
+// Armor Plate
+MERCH_CAT_ARMORPLATE              = "Bangers & Mash";
+MERCH_TAG_ARMORPLATE              = "Armor Plate";
+MERCH_FLAVOR_ARMORPLATE           = "When you want even more protection than you already have.";

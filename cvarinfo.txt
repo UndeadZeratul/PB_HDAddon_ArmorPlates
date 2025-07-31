@@ -1,1 +1,3 @@
 server bool PB_ArmorPlates_AllowReplacement = true;
+
+server bool hdm_enable_armorplate = true;
