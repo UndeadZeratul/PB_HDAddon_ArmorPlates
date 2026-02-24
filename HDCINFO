@@ -1,6 +1,6 @@
 // Armor Plate Spawn Entries
-addSpawnTableSingleEntry => { "tableName": "ArmorBonusReplaces", "name": "HDArmorPlate", "weight": "0.81", "persists": "true" }
-addSpawnTableSingleEntry => { "tableName": "GreenArmorReplaces", "name": "PB_ArmorPlate_MultipleDrops", "weight": "0.076923", "persists": "true" }
+addSpawnTableSingleEntry => { "enabled": "#PB_ArmorPlates_AllowReplacement", "tableName": "ArmorBonusReplaces", "name": "HDArmorPlate", "weight": "0.81", "persists": "true" }
+addSpawnTableSingleEntry => { "enabled": "#PB_ArmorPlates_AllowReplacement", "tableName": "GreenArmorReplaces", "name": "PB_ArmorPlate_MultipleDrops", "weight": "0.076923", "persists": "true" }
 
 // Merchant Store Entries
 newMerchantStoreItem => { "enabled": "#hdm_enable_armorplate", "type": "item", "category": "$MERCH_CAT_ARMORPLATE", "item": "HDArmorPlate", "icon": "APL0A0", "displayName": "$MERCH_TAG_ARMORPLATE", "basePrice": "100", "flavorText": "$MERCH_FLAVOR_ARMORPLATE" }
