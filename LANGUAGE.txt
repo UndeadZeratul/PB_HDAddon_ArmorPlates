@@ -1,12 +1,22 @@
 [enu default]
 
-TAG_ARMORPLATE = "Composite Armor Plate";
-BLAHBLAH_ARMORPLATE = "Composite Armor Plate.";
-PICKUP_ARMORPLATE = "Picked up an armor plate.";
+TAG_ARMORPLATE            = "Composite Armor Plate";
+PICKUP_ARMORPLATE         = "Picked up an armor plate.";
+
+ARMORPLATE_PUTON          = "You insert the %s into your vest";
+
+ARMORPLATE_DURABILITY_1   = "You as might as well be using a sheet of paper.";
+ARMORPLATE_DURABILITY_3   = "There are chunks missing from it.";
+ARMORPLATE_DURABILITY_6   = "It's shattered in the middle.";
+ARMORPLATE_DURABILITY_75  = "There's a few holes in it.";
+ARMORPLATE_DURABILITY_95  = "It has caught some rounds.";
+ARMORPLATE_DURABILITY_100 = "It is in good condition.";
+
+ARMORPLATE_NOVEST         = "You need a garrison/battle armor vest to use this.";
 
 // Merchant Store Entries
 
 // Armor Plate
-MERCH_CAT_ARMORPLATE              = "Bangers & Mash";
-MERCH_TAG_ARMORPLATE              = "Armor Plate";
-MERCH_FLAVOR_ARMORPLATE           = "When you want even more protection than you already have.";
+MERCH_CAT_ARMORPLATE      = "Bangers & Mash";
+MERCH_TAG_ARMORPLATE      = "Armor Plate";
+MERCH_FLAVOR_ARMORPLATE   = "When you want even more protection than you already have.";
