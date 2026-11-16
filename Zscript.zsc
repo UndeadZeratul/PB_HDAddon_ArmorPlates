@@ -51,8 +51,7 @@ class HDArmorPlate : HDArmour {
 	override void WearArmourHelpText(actor wearer,double durability) {
 		if(!HDWeapon.CheckDoHelpText(wearer))return;
 		wearer.A_Log(
-			String.format(Stringtable.Localize("$ARMORPLATE_PUTON")
-			..gettag())
+			String.format(Stringtable.Localize("$ARMORPLATE_PUTON"), gettag())
 			..Stringtable.Localize("$HD_SENTENCEBREAK")
 			..Stringtable.Localize(GetArmourOpinion(durability/maxperunit))
 		,true);
